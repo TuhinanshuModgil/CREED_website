@@ -4,12 +4,9 @@ import React from 'react'
 function App() {
   return (
     <div>
-       <Navbar/>
+       
       
-      <Hero/>
-      <AboutUs/>
-      <OurTeam/>
-      <FAQ/>
+      
       
 
        {/* <Services/> */}
@@ -22,7 +19,7 @@ function App() {
        
 
 
-      <Footer/>
+   
 
 
     </div>

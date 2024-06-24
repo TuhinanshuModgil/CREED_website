@@ -1,6 +1,36 @@
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import { default as LoaderSVG} from '../../public/Round_Loader.svg'
+import { useEffect, useState } from 'react'
 export default function Hero() {
+  const carbonCounterTarget = 15000
+  let carbonCountTracker = 0
+  const counterSpeed = 10
+  const counterStep = 24
+  const [carbonCount, setCarbonCount] = useState(0)
+
+  function updateCarbonCounter(){
+    
+    if(carbonCounterTarget>carbonCountTracker){
+      // console.log(carbonCountTracker)
+      setCarbonCount(prev => 
+        { carbonCountTracker = prev + counterStep
+          return carbonCountTracker})
+
+      setTimeout(updateCarbonCounter, counterSpeed)
+
+    }
+    else{
+      // console.log("Reached Here")
+      setCarbonCount(carbonCounterTarget)
+    }
+  }
+  useEffect(
+    ()=>{ 
+      updateCarbonCounter()
+    }
+  ,[])
+
+
   return (
     <div className="relative isolate overflow-hidden bg-white">
         {/* this gives the bg-grid pattern */}
@@ -73,8 +103,14 @@ export default function Hero() {
           <div className='flex items-center relative w-full justify-center'>
             {/* <image src={loaderSVG} className='w-4' /> */}
             <img className='w-96 animaton-cell ' src={LoaderSVG} />
-            <div className='w-full h-1/2 absolute bottom-0 bg-white '>
-
+            <div className='w-full h-1/2 absolute bottom-0 bg-white  flex flex-col'>
+            
+            <h1 className='text-7xl font-bold text-green-500 text-center'>
+            {carbonCount}+
+            </h1>
+            <p className='text-xl text-center font-semibold text-gray-600'>
+              Tons of CO2 saved
+            </p>
             </div>
           </div>
         </div>

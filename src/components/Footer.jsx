@@ -1,25 +1,23 @@
+import { default as Logo} from '../../public/CREED_LOGO_1.svg'
+
 const navigation = {
     browse: [
-      { name: 'Marketing', href: '#' },
-      { name: 'Analytics', href: '#' },
-      { name: 'Commerce', href: '#' },
-      { name: 'Insights', href: '#' },
+      { name: 'Services', href: '#' },
+      { name: 'Projects', href: '#' },
+      { name: 'Newsletter', href: '#' },
+      { name: 'Team', href: '#' },
     ],
     support: [
-      { name: 'Pricing', href: '#' },
-      { name: 'Documentation', href: '#' },
-      { name: 'Guides', href: '#' },
-      { name: 'API Status', href: '#' },
+      { name: 'Contact Us', href: '#' },
+      { name: 'Email', href: '#' },
+      { name: 'Linked in', href: '#' },
     ],
     company: [
       { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
       { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
       { name: 'Partners', href: '#' },
     ],
     legal: [
-      { name: 'Claim', href: '#' },
       { name: 'Privacy', href: '#' },
       { name: 'Terms', href: '#' },
     ],
@@ -102,10 +100,12 @@ const navigation = {
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                 alt="Company name"
               /> */}
-                                  <svg fill="none" height="32" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><filter id="a" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="54" width="48" x="0" y="-3"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feBlend in="SourceGraphic" in2="BackgroundImageFix" mode="normal" result="shape" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feOffset dy="-3" /><feGaussianBlur stdDeviation="1.5" /><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" /><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" /><feBlend in2="shape" mode="normal" result="effect1_innerShadow_3051_46869" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feOffset dy="3" /><feGaussianBlur stdDeviation="1.5" /><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" /><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" /><feBlend in2="effect1_innerShadow_3051_46869" mode="normal" result="effect2_innerShadow_3051_46869" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feMorphology in="SourceAlpha" operator="erode" radius="1" result="effect3_innerShadow_3051_46869" /><feOffset /><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" /><feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.24 0" /><feBlend in2="effect2_innerShadow_3051_46869" mode="normal" result="effect3_innerShadow_3051_46869" /></filter><filter id="b" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="42" width="34.5" x="6.75" y="5.25"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feMorphology in="SourceAlpha" operator="erode" radius="1.5" result="effect1_dropShadow_3051_46869" /><feOffset dy="2.25" /><feGaussianBlur stdDeviation="2.25" /><feComposite in2="hardAlpha" operator="out" /><feColorMatrix type="matrix" values="0 0 0 0 0.141176 0 0 0 0 0.141176 0 0 0 0 0.141176 0 0 0 0.1 0" /><feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_3051_46869" /><feBlend in="SourceGraphic" in2="effect1_dropShadow_3051_46869" mode="normal" result="shape" /></filter><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="24" x2="26" y1=".000001" y2="48"><stop offset="0" stop-color="#fff" stop-opacity="0" /><stop offset="1" stop-color="#fff" stop-opacity=".12" /></linearGradient><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="24" x2="24" y1="9.75" y2="38.25"><stop offset="0" stop-color="#fff" stop-opacity=".8" /><stop offset="1" stop-color="#fff" stop-opacity=".5" /></linearGradient><linearGradient id="e" gradientUnits="userSpaceOnUse" x1="24" x2="24" y1="0" y2="48"><stop offset="0" stop-color="#fff" stop-opacity=".12" /><stop offset="1" stop-color="#fff" stop-opacity="0" /></linearGradient><clipPath id="f"><rect height="48" rx="12" width="48" /></clipPath><g filter="url(#a)"><g clip-path="url(#f)"><rect fill="#16b364" height="48" rx="12" width="48" /><path d="m0 0h48v48h-48z" fill="url(#c)" /><g filter="url(#b)"><path d="m20.4375 9.75c0 5.9025-4.785 10.6875-10.6875 10.6875v7.125h10.6875v10.6875h7.125c0-5.9025 4.785-10.6875 10.6875-10.6875v-7.125h-10.6875v-10.6875z" fill="url(#d)" /></g></g><rect height="46" rx="11" stroke="url(#e)" stroke-width="2" width="46" x="1" y="1" /></g></svg>
+
+              <img src={Logo} alt="CREED Logo" className='h-12' />
+                                  {/* <svg fill="none" height="32" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><filter id="a" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="54" width="48" x="0" y="-3"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feBlend in="SourceGraphic" in2="BackgroundImageFix" mode="normal" result="shape" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feOffset dy="-3" /><feGaussianBlur stdDeviation="1.5" /><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" /><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" /><feBlend in2="shape" mode="normal" result="effect1_innerShadow_3051_46869" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feOffset dy="3" /><feGaussianBlur stdDeviation="1.5" /><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" /><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" /><feBlend in2="effect1_innerShadow_3051_46869" mode="normal" result="effect2_innerShadow_3051_46869" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feMorphology in="SourceAlpha" operator="erode" radius="1" result="effect3_innerShadow_3051_46869" /><feOffset /><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" /><feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.24 0" /><feBlend in2="effect2_innerShadow_3051_46869" mode="normal" result="effect3_innerShadow_3051_46869" /></filter><filter id="b" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="42" width="34.5" x="6.75" y="5.25"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feMorphology in="SourceAlpha" operator="erode" radius="1.5" result="effect1_dropShadow_3051_46869" /><feOffset dy="2.25" /><feGaussianBlur stdDeviation="2.25" /><feComposite in2="hardAlpha" operator="out" /><feColorMatrix type="matrix" values="0 0 0 0 0.141176 0 0 0 0 0.141176 0 0 0 0 0.141176 0 0 0 0.1 0" /><feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_3051_46869" /><feBlend in="SourceGraphic" in2="effect1_dropShadow_3051_46869" mode="normal" result="shape" /></filter><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="24" x2="26" y1=".000001" y2="48"><stop offset="0" stop-color="#fff" stop-opacity="0" /><stop offset="1" stop-color="#fff" stop-opacity=".12" /></linearGradient><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="24" x2="24" y1="9.75" y2="38.25"><stop offset="0" stop-color="#fff" stop-opacity=".8" /><stop offset="1" stop-color="#fff" stop-opacity=".5" /></linearGradient><linearGradient id="e" gradientUnits="userSpaceOnUse" x1="24" x2="24" y1="0" y2="48"><stop offset="0" stop-color="#fff" stop-opacity=".12" /><stop offset="1" stop-color="#fff" stop-opacity="0" /></linearGradient><clipPath id="f"><rect height="48" rx="12" width="48" /></clipPath><g filter="url(#a)"><g clip-path="url(#f)"><rect fill="#16b364" height="48" rx="12" width="48" /><path d="m0 0h48v48h-48z" fill="url(#c)" /><g filter="url(#b)"><path d="m20.4375 9.75c0 5.9025-4.785 10.6875-10.6875 10.6875v7.125h10.6875v10.6875h7.125c0-5.9025 4.785-10.6875 10.6875-10.6875v-7.125h-10.6875v-10.6875z" fill="url(#d)" /></g></g><rect height="46" rx="11" stroke="url(#e)" stroke-width="2" width="46" x="1" y="1" /></g></svg> */}
 
               <p className="text-sm leading-6 text-gray-300">
-                Making the world a better place through constructing elegant hierarchies.
+              Leading the charge towards sustainable solutions
               </p>
               <div className="flex space-x-6">
                 {navigation.social.map((item) => (
@@ -172,7 +172,7 @@ const navigation = {
             </div>
           </div>
           <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-            <p className="text-xs leading-5 text-gray-400">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+            <p className="text-xs leading-5 text-gray-400">&copy; 2023 CREED, Inc. All rights reserved.</p>
           </div>
         </div>
       </footer>

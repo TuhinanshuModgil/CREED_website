@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom"
+
 const links = [
-    { name: 'Open Services', href: '#' },
-    { name: 'Projects', href: '#' },
-    { name: 'Contact Us', href: '#' },
-    { name: 'Meet our Team', href: '#' },
+    { name: 'Open Services', href: '/services' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Contact Us', href: '/contact' },
+    // { name: 'Meet our Team', href: '#' },
   ]
   const stats = [
     { name: 'Faculties', value: '10' },
-    { name: 'Full-time colleagues', value: '300+' },
-    { name: 'Hours per week', value: '40' },
+    { name: 'Energy Audits', value: '30+' },
+    // { name: 'Hours per week', value: '40' },
     { name: 'IIT, Ropar', value: 'Research Center' },
   ]
   
@@ -60,10 +62,13 @@ const links = [
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
               {links.map((link) => (
-                <a key={link.name} href={link.href}>
+                <Link key={link.name} to={link.href}>
                   {link.name} <span aria-hidden="true">&rarr;</span>
-                </a>
+                </Link>
               ))}
+              <a  href="#team-section">
+                  Our Team <span aria-hidden="true">&rarr;</span>
+                </a>
             </div>
             <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
               {stats.map((stat) => (

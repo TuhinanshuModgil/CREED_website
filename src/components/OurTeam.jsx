@@ -42,7 +42,7 @@ const people = [
       },
       {
           name: 'Dr Himanshu Tyagi',
-          role: 'Clean and sustainable energy, solar energy and energy storage',
+          role: 'Solar energy and energy storage',
           imageUrl: himanshuImage,
           xUrl: '#',
           linkedinUrl: '#',
@@ -93,7 +93,7 @@ const people = [
   
   export default function OurTeam() {
     return (
-      <div className="bg-white py-32">
+      <div className="bg-white py-32 " id='team-section' >
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <div className="mx-auto max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our team</h2>

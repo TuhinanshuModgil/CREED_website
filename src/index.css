@@ -22,7 +22,7 @@
 
 
 .animaton-cell{
-  animation: loaderani 2s ease-out 1 0.1s  forwards;
+  animation: loaderani 4.5s ease-out 1 0.1s  forwards;
 }
 @keyframes loaderani {
   from{
