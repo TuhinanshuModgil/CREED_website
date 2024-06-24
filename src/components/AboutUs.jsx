@@ -1,14 +1,14 @@
 const links = [
-    { name: 'Open roles', href: '#' },
-    { name: 'Internship program', href: '#' },
-    { name: 'Our values', href: '#' },
-    { name: 'Meet our leadership', href: '#' },
+    { name: 'Open Services', href: '#' },
+    { name: 'Projects', href: '#' },
+    { name: 'Contact Us', href: '#' },
+    { name: 'Meet our Team', href: '#' },
   ]
   const stats = [
-    { name: 'Offices worldwide', value: '12' },
+    { name: 'Faculties', value: '10' },
     { name: 'Full-time colleagues', value: '300+' },
     { name: 'Hours per week', value: '40' },
-    { name: 'Paid time off', value: 'Unlimited' },
+    { name: 'IIT, Ropar', value: 'Research Center' },
   ]
   
   export default function AboutUs() {
@@ -22,7 +22,7 @@ const links = [
         <img
           src="https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=2600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center blur-sm"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center blur-md"
         />
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -51,9 +51,10 @@ const links = [
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About CREED</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            <p className="mt-6 text-lg leading-8 text-white">
+            Established in 2023, CREED is a pioneering research center at the Indian Institute of Technology, Ropar, dedicated to advancing energy efficiency and decarbonization. 
+            At CREED, we strive to be leaders in energy research and decarbonization, fostering collaborations and driving impactful initiatives in the field of sustainable energy. Through cutting-edge research, technology development, and knowledge dissemination, we aim to address the urgent challenges of climate change and environmental sustainability.
+
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

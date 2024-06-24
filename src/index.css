@@ -19,3 +19,17 @@
   box-sizing: border-box;
   
 }
+
+
+.animaton-cell{
+  animation: loaderani 2s ease-out 1 0.1s  forwards;
+}
+@keyframes loaderani {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(180deg);
+  }
+  
+}

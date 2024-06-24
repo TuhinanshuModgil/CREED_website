@@ -1,5 +1,5 @@
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
-
+import { default as LoaderSVG} from '../../public/Round_Loader.svg'
 export default function Hero() {
   return (
     <div className="relative isolate overflow-hidden bg-white">
@@ -22,7 +22,7 @@ export default function Hero() {
         </defs>
         <rect width="100%" height="100%" strokeWidth={0} fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
       </svg>
-      <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+      <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40 justify-between">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
           {/* <img
             className="h-11"
@@ -41,11 +41,10 @@ export default function Hero() {
             </a>
           </div> */}
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            A Catchy Line Realted to CREEDs Work
+          Leading the charge towards sustainable solutions
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+          CREED at IIT Ropar is at the forefront of pioneering initiatives, igniting progress towards a brighter, more sustainable world.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
@@ -71,6 +70,13 @@ export default function Hero() {
               />
             </div>
           </div> */}
+          <div className='flex items-center relative w-full justify-center'>
+            {/* <image src={loaderSVG} className='w-4' /> */}
+            <img className='w-96 animaton-cell ' src={LoaderSVG} />
+            <div className='w-full h-1/2 absolute bottom-0 bg-white '>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
