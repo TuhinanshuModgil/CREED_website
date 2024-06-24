@@ -1,45 +1,94 @@
+import React from 'react';
+import manigandanImage from '../assets/images/Manigandan.png'; 
+import brijeshImage from '../assets/images/BrijeshKumbhani.png' ;
+import devranjanImage from '../assets/images/DevranjanSamanta.png' ;
+import dhirajImage from '../assets/images/DhirajKMahajan.png' ;
+import himanshuImage from '../assets/images/HimanshuTyagi.png' ;
+import kalaiselviImage from '../assets/images/Kalaiselvi.png' ;
+import manoranjanImage from '../assets/images/ManoranjanMishra.png';
+import muthulingamImage from '../assets/images/MuthulingamSubramaniyan.png' ;
+import navaneethImage from '../assets/images/NavaneethKM.jpg';
+import tarakImage from '../assets/images/TarakMondal.jpg'; 
+import vishwajeetImage from '../assets/images/Vishwajeet.jpg' ;
+
 const people = [
     {
-      name: 'Arijeet Singh',
-      role: 'Founder/CEO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      xUrl: '#',
-      linkedinUrl: '#',
+        name: 'Dr. Manigandan S.',
+        role: 'Co-ordinator CREED',
+        imageUrl: manigandanImage, // Correctly use the imported variable here
+        xUrl: '#',
+        linkedinUrl: 'https://www.linkedin.com/in/dr-manigandan-sabapathy-5b191b1a5/',
     },
     {
-        name: 'Honey Singh',
-        role: 'Co-Founder/Entertainment',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        name: 'Dr Brijesh Kumbhani',
+        role: 'Energy Efficient Wireless Technologies',
+        imageUrl: brijeshImage,
         xUrl: '#',
         linkedinUrl: '#',
       },
       {
-        name: 'AP Dhillon',
-        role: 'Copywriter',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        name: 'Dr Devranjan Samanta',
+        role: 'Fluid Mechanics',
+        imageUrl: devranjanImage  ,
         xUrl: '#',
         linkedinUrl: '#',
       },
       {
-          name: 'Honey Singh',
-          role: 'Co-Founder/Entertainment',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        name: 'Dr Dhiraj Mahajan',
+        role: 'Energy and Biomedical applications',
+        imageUrl: dhirajImage,
+        xUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+          name: 'Dr Himanshu Tyagi',
+          role: 'Clean and sustainable energy, solar energy and energy storage',
+          imageUrl: himanshuImage,
           xUrl: '#',
           linkedinUrl: '#',
         },
         {
-            name: 'Honey Singh',
-            role: 'Co-Founder/Entertainment',
-            imageUrl:
-              'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          name: 'Dr Kalaiselvi',
+          role: 'Energy efficiency, VFD, Multilevel inverters',
+          imageUrl: kalaiselviImage,
+          xUrl: '#',
+          linkedinUrl: '#',
+        },
+        {
+            name: 'Prof Manoranjan Mishra',
+            role: 'Fluid Dynamics',
+            imageUrl: manoranjanImage,
             xUrl: '#',
             linkedinUrl: '#',
-          }
-    // More people...
+        },
+        {
+            name: 'Dr Muthulingam Subramanian',
+            role: 'Energy Storage, Phase change materials, Risk assessment',
+            imageUrl: muthulingamImage,
+            xUrl: '#',
+            linkedinUrl: '#',
+        },
+        {
+            name: 'Dr Navaneeth K M',
+            role: 'Fluid Dynamics',
+            imageUrl: navaneethImage ,
+            xUrl: '#',
+            linkedinUrl: '#',
+        },
+        {
+            name: 'Dr Tarak Mondal',
+            role: 'Biomass conversion, waste-to-energy, CO2 utilization',
+            imageUrl: tarakImage,
+            xUrl: '#',
+            linkedinUrl: '#',
+        },
+        {
+            name: 'Dr Vishwajeet Mehandia',
+            role: 'CO2 capture using biological systems, active matter, complex fluids',
+            imageUrl: vishwajeetImage,
+            xUrl: '#',
+            linkedinUrl: '#',
+        }
   ]
   
   export default function OurTeam() {
@@ -54,7 +103,7 @@ const people = [
           </div>
           <ul
             role="list"
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-6"
           >
             {people.map((person) => (
               <li key={Math.random()*10 + Math.random() }>
