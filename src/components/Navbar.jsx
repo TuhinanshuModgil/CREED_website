@@ -17,7 +17,7 @@ export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="bg-white border-b">
+        <header className="bg-gray-900 border-b">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <Link to="/" className="-m-1.5 p-1.5">
                     <span className="sr-only">Your Company</span>
@@ -36,9 +36,9 @@ export default function Navbar() {
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
-                <div className="hidden lg:flex lg:gap-x-12">
+                <div className="hidden lg:flex lg:gap-x-12 ">
                     {navigation.map((item) => (
-                        <NavLink key={item.name} to={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                        <NavLink key={item.name} to={item.href} className="text-sm font-semibold leading-6 text-white">
                             {item.name}
                         </NavLink>
                     ))}
