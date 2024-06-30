@@ -37,13 +37,6 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Dr. Prabhu Vijayakumaran',
-    role: 'Project Manger, KISEM Project',
-    imageUrl: PrabhuImage, // Correctly use the imported variable here
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
     name: 'Dr Brijesh Kumbhani',
     role: 'Energy Efficient Wireless Technologies',
     imageUrl: brijeshImage,
@@ -120,7 +113,7 @@ export default function OurTeam() {
     <div className="bg-white py-32 " id='team-section' >
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our team</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our CREED team</h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
             Our interdisciplinary team comprises ten faculty members, including professors, associate professors, and assistant professors, representing diverse disciplines.
           </p>

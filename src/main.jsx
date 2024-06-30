@@ -11,6 +11,7 @@ import Services_2 from './components/Services_2.jsx'
 import Contact from './components/Contact.jsx'
 import Layout from './Layout.jsx'
 import Project from './components/Project.jsx'
+import OurTeamKISEM from './components/OurTeamKISEM.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
         <Hero/>
         <AboutUs/>
         <OurTeam/>
+        <OurTeamKISEM/>
         <FAQ/>
         </div> 
       },

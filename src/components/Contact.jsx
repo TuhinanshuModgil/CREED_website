@@ -46,8 +46,7 @@ export default function Contact() {
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
+            IIT Ropar, is situated in Rupnagar, a historic town in the Indian state of Punjab. Rupnagar, commonly referred to as Ropar, is located along the banks of the Sutlej River, providing a serene and picturesque setting for the campus. The town is approximately 50 kilometers from Chandigarh, the capital city of Punjab and Haryana, making it easily accessible via road and rail. The region is rich in cultural heritage and is known for its archaeological significance, offering a blend of modern education and historical richness.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
@@ -56,9 +55,9 @@ export default function Contact() {
                   <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  Some Building, IIT Ropar
+                  Mechinacl Engineering Building, IIT Ropar
                   <br />
-                  Bara Phool, Rupnagar, PIN: 140030
+                  Bara Phool, Rupnagar, PIN: 140001
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -68,12 +67,12 @@ export default function Contact() {
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                    +91 98846-69570
                   </a>
-                  <br />
+                  {/* <br />
                   <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
                     +1 (555) 234-5678
-                  </a>
+                  </a> */}
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -83,7 +82,7 @@ export default function Contact() {
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="mailto:hello@example.com">
-                    hello@example.com
+                  mani@iitrpr.ac.in
                   </a>
                 </dd>
               </div>
