@@ -1,4 +1,23 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon,StarIcon } from '@heroicons/react/20/solid'
+
+const featuresEnergyAuditPro = [
+  {
+    name: 'On Site Assessment ',
+    description:
+      'Our team of qualified Energy auditors and engineers will visit the site and assess the entire process and industry/building. Measurements of various parameters using state-of-the-art devices.',
+    icon: StarIcon,
+  },
+  {
+    name: 'Detailed Report',
+    description: 'A detailed report prepared by our energy auditor and vetted by experienced professors will be submitted. The report would contain the energy conservation measures, measurement details, implementation suggestions, etc.',
+    icon: StarIcon,
+  },
+  {
+    name: 'Support for Implementation',
+    description: 'Our team will follow up and support the implementation of energy conservation measures.',
+    icon: StarIcon,
+  },
+]
 
 const features = [
   {
@@ -62,7 +81,7 @@ export default function Services_2() {
               A comprehensive energy audit solution complete with a detailed report and aid in implementing the audit suggestions.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {features.map((feature) => (
+                {featuresEnergyAuditPro.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-600" aria-hidden="true" />
