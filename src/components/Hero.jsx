@@ -1,6 +1,7 @@
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import { default as LoaderSVG} from '../../public/Round_Loader.svg'
 import { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom'
 export default function Hero() {
   const carbonCounterTarget = 15000
   let carbonCountTracker = 0
@@ -77,13 +78,13 @@ export default function Hero() {
           CREED at IIT Ropar is at the forefront of pioneering initiatives, igniting progress towards a brighter, more sustainable world.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-md bg-tertairy-color-one px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            <NavLink
+              to="/services"
+              className="rounded-md bg-tertairy-color-one px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             >
               Our Services
-            </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            </NavLink>
+            <a href="#about-us" className="text-sm font-semibold leading-6 text-gray-900">
               Learn more <span aria-hidden="true">→</span>
             </a>
           </div>

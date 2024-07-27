@@ -58,7 +58,7 @@ export default function OurTeamKISEM() {
     <div className="bg-white py-32 border-t" id='team-section' >
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our KISEM team</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">KISEM Technical Advisory Team</h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
             Our KISEM team comprises of various professionals specializing in various fields.
           </p>

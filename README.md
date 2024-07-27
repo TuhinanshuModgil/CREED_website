@@ -1,3 +1,7 @@
+# Features to Add 
+1. Add linked in for all the faculties 
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

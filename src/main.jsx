@@ -23,9 +23,9 @@ const router = createBrowserRouter([
         element: <div>
         <Hero/>
         <AboutUs/>
+        <FAQ/>
         <OurTeam/>
         <OurTeamKISEM/>
-        <FAQ/>
         </div> 
       },
       {
