@@ -113,7 +113,7 @@ export default function OurTeam() {
     <div className="bg-white py-32 " id='team-section' >
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our CREED team</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">CREED Faculty Advisiory Team</h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
             Our interdisciplinary team comprises ten faculty members, including professors, associate professors, and assistant professors, representing diverse disciplines.
           </p>

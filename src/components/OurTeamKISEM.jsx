@@ -9,19 +9,20 @@ import RoopaChandran from "../assets/images/RoopaChandran.png";
 
 const people = [
   {
-    name: 'Mr. Prabhu Vijayakumaran',
-    role: 'Project Manger, KISEM Project',
-    imageUrl: PrabhuImage, // Correctly use the imported variable here
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
     name: 'Mr. Renjith Raj R',
     role: 'Energy Assessor, KISEM Project',
     imageUrl: RenjithRaj,
     xUrl: '#',
     linkedinUrl: '#',
   },
+  {
+    name: 'Mr. Prabhu Vijayakumaran',
+    role: 'Project Manger, KISEM Project',
+    imageUrl: PrabhuImage, // Correctly use the imported variable here
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  
   {
     name: 'Mr.Sumit Kumar Chaurasia',
     role: 'Field Engineer, KISEM Project',
