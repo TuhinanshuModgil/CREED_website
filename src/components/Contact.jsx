@@ -89,7 +89,11 @@ export default function Contact() {
             </dl>
           </div>
         </div>
-        <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+        <div className="overflow-hidden">
+
+        <img src="/Contact_page_img.jpg" alt="Green Industial" className='object-contain max-w-[150%] h-full object-[-10rem]' />
+        </div>
+        {/* <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
@@ -184,7 +188,7 @@ export default function Contact() {
               </button>
             </div>
           </div>
-        </form>
+        </form> */}
       </div>
     </div>
   )
