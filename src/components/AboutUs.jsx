@@ -60,7 +60,7 @@ const links = [
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+            <div className="sm:grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 hidden  text-white sm:grid-cols-2 md:flex lg:gap-x-10">
               {links.map((link) => (
                 <Link key={link.name} to={link.href}>
                   {link.name} <span aria-hidden="true">&rarr;</span>

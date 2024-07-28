@@ -90,7 +90,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="overflow-hidden">
-
+          
         <img src="/Contact_page_img.jpg" alt="Green Industial" className='object-contain max-w-[150%] h-full object-[-10rem]' />
         </div>
         {/* <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
