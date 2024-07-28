@@ -34,11 +34,11 @@ function Announcements() {
         {
                 news.map((data,i )=>{
                     return(
-                        <div key={i} className="border-b pb-2">
+                        <div key={i} className="border-b pb-3">
                         <h1 className="text-base font-semibold leading-6 text-gray-900">
                             {data.title}
                         </h1>
-                        <p className="mt-2 text-sm text-gray-500">
+                        <p className="my-2 text-sm text-gray-500">
                             {data.news}
                         </p>
                         </div>

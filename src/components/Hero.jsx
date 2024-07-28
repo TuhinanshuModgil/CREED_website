@@ -106,7 +106,7 @@ export default function Hero() {
             <img className='w-96 animaton-cell ' src={LoaderSVG} />
             <div className='w-full h-1/2 absolute bottom-0 bg-white  flex flex-col'>
             
-            <h1 className='text-7xl font-bold text-green-500 text-center'>
+            <h1 className='text-7xl font-bold text-green-600 text-center'>
             {carbonCount}+
             </h1>
             <p className='text-xl text-center font-semibold text-gray-600'>
