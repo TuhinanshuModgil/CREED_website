@@ -9,7 +9,7 @@ import { Link, NavLink } from 'react-router-dom'
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Services', href: '/services' },
-    { name: 'Project', href: '/projects' },
+    // { name: 'Project', href: '/projects' },
     { name: 'Contact', href: '/contact' },
 ]
 

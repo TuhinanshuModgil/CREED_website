@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const links = [
     { name: 'Open Services', href: '/services' },
-    { name: 'Projects', href: '/projects' },
+    // { name: 'Projects', href: '/projects' },
     { name: 'Contact Us', href: '/contact' },
     // { name: 'Meet our Team', href: '#' },
   ]

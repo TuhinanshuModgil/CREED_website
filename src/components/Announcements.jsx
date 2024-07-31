@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 async function getNewsData(){
 try {
-    const data = await fetch('https://script.googleusercontent.com/macros/echo?user_content_key=aFUxLG9lk0q-fSZvdpiiTuyQ5gtiXk2DRXXEpmM5DnOe91slnOUITJkV7hWhhhCjExnZ8ilhPRQUkSXjeduPREGMGQLy_jrDm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnKJStgcFLQOoQ5qvQX-MjgQAq_Emc1r2L6laA_tVcQ34-Xq3J8NVVnPJ6k2b45wN70R-NPsiLNvXgPC3tgCHWGuLDSP9kDaApdz9Jw9Md8uu&lib=MSYLcSSsoBRq56Ezg7I6e5-uB6aQWfZai')
+    const data = await fetch('https://script.googleusercontent.com/macros/echo?user_content_key=2dji2UHasbQnhK8k3H3V5mnJXypS-40_4R9TYlZywA3LeFNnabBGLTMF-0JfyZr-H0beDoYzVHyGpocmYcBmhV9mNNrkMELBm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnLzoCv0sfZVOw87x-kEEjviGDy9jdYoFIbxpZJ8PdML4l_nuSSD2d0UJq1QsVxlw2VRhK5_pE1DmGP2u7Apaoavq41W-T5X6RA&lib=MSYLcSSsoBRq56Ezg7I6e5-uB6aQWfZai')
     const dataJSON = await data.json()
 
     return dataJSON.data
@@ -41,6 +41,7 @@ function Announcements() {
                         <p className="my-2 text-sm text-gray-500">
                             {data.news}
                         </p>
+                        <a href={`${data.linkedinLink}`} target="_blank" className="text-sm text-blue-600">View announcement on Linked in</a> 
                         </div>
 
                     )
